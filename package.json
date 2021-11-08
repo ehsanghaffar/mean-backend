@@ -4,7 +4,8 @@
   "description": "A API for website",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "serve": "node app"
   },
   "author": "Ehsanghaffarii | info@ehsanghaffarii.ir",
   "license": "ISC",

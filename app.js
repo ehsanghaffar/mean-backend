@@ -21,7 +21,8 @@ const articleRoutes = require("./routes/articleRoutes");
 // const { loginCheck } = require("./middleware/auth");
 
 // Database Connection
-const db = "mongodb://localhost:27017/lanjrud";
+// const db = "mongodb://lanjrudi_dbuser:iRXLZtkmWJq7Vmx@localhost:27017/lanjrudi_db";
+const db = 'mongodb://localhost:27017/lanjrud'
 mongoose
   .connect(db, {
     useNewUrlParser: true,
@@ -44,11 +45,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Routes
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("Hello");
 });
 app.use("/auth", userRoutes);
-app.use("/articles", articleRoutes);
+app.use("/api/articles", articleRoutes);
 // app.use("/api", authRouter);
 // app.use("/api/user", usersRouter);
 // app.use("/api/category", categoryRouter);
