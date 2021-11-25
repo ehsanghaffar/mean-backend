@@ -2,18 +2,21 @@ const express = require("express");
 const app = express();
 
 const articleRoute = express.Router();
+const cleanBody = require("../middleware/cleanbody");
+const ArticleController = require("../controllers/article.controller");
 let Article = require("../models/Article");
 
 // Add Article
-articleRoute.route("/add-article").post((req, res, next) => {
-  Article.create(req.body, (error, data) => {
-    if (error) {
-      return next(error);
-    } else {
-      res.json(data);
-    }
-  });
-});
+// articleRoute.route("/add-article").post((req, res, next) => {
+//   Article.create(req.body, (error, data) => {
+//     if (error) {
+//       return next(error);
+//     } else {
+//       res.json(data);
+//     }
+//   });
+// });
+articleRoute.route('/add-article').post(cleanBody, ArticleController.addArticle);
 
 // Get All Article
 articleRoute.route("/").get((req, res) => {

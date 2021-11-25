@@ -7,34 +7,23 @@ const morgan = require("morgan");
 const cors = require("cors");
 
 // Import Router
-const userRoutes = require("./routes/userRoutes");
+const authRoutes = require("./routes/user.routes");
 const articleRoutes = require("./routes/articleRoutes");
-// const authRouter = require("./routes/auth");
-// const categoryRouter = require("./routes/categories");
-// const productRouter = require("./routes/products");
-// const brainTreeRouter = require("./routes/braintree");
-// const orderRouter = require("./routes/orders");
-// const usersRouter = require("./routes/users");
-// const customizeRouter = require("./routes/customize");
-
-// Import Auth middleware for check user login or not~
-// const { loginCheck } = require("./middleware/auth");
 
 // Database Connection
 // const db = "mongodb://lanjrudi_dbuser:iRXLZtkmWJq7Vmx@localhost:27017/lanjrudi_db";
-const db = 'mongodb://localhost:27017/lanjrud'
 mongoose
-  .connect(db, {
+  .connect(process.env.MONGO_URI, {
+    dbName: "lanjrud",
     useNewUrlParser: true,
-    // useUnifiedTopology: true,
-    // useCreateIndex: true,
+    useUnifiedTopology: true,
   })
-  .then(() =>
-    console.log(
-      "==============Mongodb Database Connected Successfully=============="
-    )
-  )
-  .catch((err) => console.log("Database Not Connected !!!"));
+  .then(() => {
+    console.log("Database connection Success.");
+  })
+  .catch((err) => {
+    console.error("Mongo Connection Error", err);
+  });
 
 // Middleware
 app.use(morgan("dev"));
@@ -48,15 +37,8 @@ app.use(express.json());
 app.get("/api", (req, res) => {
   res.send("Hello");
 });
-app.use("/auth", userRoutes);
+app.use("/api/users", authRoutes);
 app.use("/api/articles", articleRoutes);
-// app.use("/api", authRouter);
-// app.use("/api/user", usersRouter);
-// app.use("/api/category", categoryRouter);
-// app.use("/api/product", productRouter);
-// app.use("/api", brainTreeRouter);
-// app.use("/api/order", orderRouter);
-// app.use("/api/customize", customizeRouter);
 
 // Run Server
 const PORT = process.env.PORT || 8000;

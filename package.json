@@ -18,10 +18,14 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "i": "^0.3.6",
+    "joi": "^17.3.0",
     "jsonwebtoken": "^8.5.1",
+    "mongo-sanitize": "^1.1.0",
     "mongoose": "^5.13.3",
     "morgan": "^1.10.0",
-    "multer": "^1.4.2"
+    "multer": "^1.4.2",
+    "nanoid": "^3.1.20",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

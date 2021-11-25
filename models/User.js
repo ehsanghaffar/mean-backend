@@ -1,40 +1,48 @@
 const mongoose = require("mongoose");
+const bcrypt = require("bcryptjs");
+const Schema = mongoose.Schema;
 
-const userSchema = new mongoose.Schema(
+const userSchema = new Schema(
   {
-    name: {
-      type: String,
-      required: true,
-      maxlength: 32,
-    },
-    email: {
-      type: String,
-      required: true,
-      trim: true,
-      index: { unique: true },
-      match: /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/,
-    },
-    password: {
-      type: String,
-      required: true,
-    },
-    userRole: {
-      type: Number,
-    },
-    phoneNumber: {
-      type: Number,
-    },
-    userImage: {
-      type: String,
-      default: "user.png",
-    },
-    history: {
-      type: Array,
-      default: [],
-    },
+    userId: { type: String, unique: true, required: true },
+    name: { type: String, default: null },
+    email: { type: String, required: true, unique: true },
+    active: { type: Boolean, default: false },
+    password: { type: String, required: true },
+    resetPasswordToken: { type: String, default: null },
+    resetPasswordExpires: { type: Date, default: null },
+
+    emailToken: { type: String, default: null },
+    emailTokenExpires: { type: Date, default: null },
+
+    accessToken: { type: String, default: null },
+
+    referralCode: { type: String, unique: true },
+    referrer: { type: String, default: null },
   },
-  { timestamps: true }
+  {
+    timestamps: {
+      createdAt: "createdAt",
+      updatedAt: "updatedAt",
+    },
+  }
 );
 
-const userModel = mongoose.model("users", userSchema);
-module.exports = userModel;
+const User = mongoose.model("user", userSchema);
+module.exports = User;
+
+module.exports.hashPassword = async (password) => {
+  try {
+    const salt = await bcrypt.genSalt(10);
+    return await bcrypt.hash(password, salt);
+  } catch (error) {
+    throw new Error("Hashing failed", error);
+  }
+};
+module.exports.comparePasswords = async (inputPassword, hashedPassword) => {
+  try {
+    return await bcrypt.compare(inputPassword, hashedPassword);
+  } catch (error) {
+    throw new Error("Comparison failed", error);
+  }
+};
