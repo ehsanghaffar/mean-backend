@@ -8,15 +8,14 @@ const cors = require("cors");
 
 // Import Router
 const authRoutes = require("./routes/user.routes");
-const articleRoutes = require("./routes/articleRoutes");
+const articleRoute = require("./routes/articleRoutes");
 
 // Database Connection
-// const db = "mongodb://lanjrudi_dbuser:iRXLZtkmWJq7Vmx@localhost:27017/lanjrudi_db";
+const db = "mongodb://lanjrudi_dbuser:iRXLZtkmWJq7Vmx@localhost:27017/lanjrudi_db";
 mongoose
-  .connect(process.env.MONGO_URI, {
-    dbName: "lanjrud",
+  .connect(db, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useUnifiedTopology: true,
   })
   .then(() => {
     console.log("Database connection Success.");
@@ -38,7 +37,7 @@ app.get("/api", (req, res) => {
   res.send("Hello");
 });
 app.use("/api/users", authRoutes);
-app.use("/api/articles", articleRoutes);
+app.use("/api/articles", articleRoute);
 
 // Run Server
 const PORT = process.env.PORT || 8000;

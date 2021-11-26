@@ -1,0 +1,2379 @@
+(node:16773) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:16773) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:33:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:36671) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:33:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:38624) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:38624) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:17814) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:17814) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:17464) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:17464) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:25869) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:25869) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:376) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:376) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:4871) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:4871) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:46926) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:46926) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:9444) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:9444) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:25538) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:25538) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:9765) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:9765) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:22969) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:22969) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3405) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:3405) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:31686) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:31686) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:47282) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:47282) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:20848) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:20848) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:31429) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:31429) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:33136) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:33136) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:13529) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:13529) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:34653) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:34653) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:20749) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:20749) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:14338) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:14338) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:41803) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:41803) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:16051) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:16051) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:41360) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:41360) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:36564) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:36564) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:33009) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:33009) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:38904) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:38904) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:43344) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:43344) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:35853) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:35853) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:42882) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:42882) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:21761) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:21761) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:37571) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:37571) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:10091) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:10091) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:45940) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:45940) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:14213) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:14213) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:33:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:10068) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:10068) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:17622) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:17622) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+ValidationError: Article validation failed: title: Path `title` is required., description: Path `description` is required., content: Path `content` is required.
+    at model.Document.invalidate (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2760:32)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/document.js:2552:17
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/12/lib/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:42278) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:42278) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:33510) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:33847) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:2541) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:3013) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:3549) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:4784) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:5347) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:42109) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:46017) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:6437) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:6638) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:6814) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:38419) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:39012) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:44490) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:44618) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:2489) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:3036) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:8162) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:8928) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:10149) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:10327) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:15011) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:16090) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:16951) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:17192) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:19890) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:20064) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:23874) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:23987) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:33639) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:35771) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:22075) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:22177) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:32694) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:32893) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:33646) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:33777) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:35567) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:41167) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:41352) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:44029) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:44135) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:45966) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:46169) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:24661) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:24827) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:25093) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:25349) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:31609) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+(node:45132) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:45853) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:352) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:613) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:40594) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:42789) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:45188) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2008) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:7273) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:8252) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:29652) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:30293) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:30439) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:41345) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:41858) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:26421) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:26572) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:27522) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:27714) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:5057) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:5742) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:10460) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:11168) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:18379) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:18673) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:18864) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:30121) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:30241) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:39331) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:36:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:8897) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:9024) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:11850) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:12034) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:48961) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:855) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:1066) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:1285) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:10525) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:619) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:27754) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:28826) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:29781) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+(node:30792) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:31770) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:1940) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:3854) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:4765) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:38862) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+Login error MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:46267) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:47109) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:1785) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:2752) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:3660) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+Login error MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+Login error MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+signup-error MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/lanjrudi/apies/new-lanjrud-api/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Mongo Connection Error MongoError: Authentication failed.
+    at MessageStream.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/connection.js:299:20)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:28264) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongo Connection Error MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoError: Authentication failed.
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:19)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}]
+    at Pool.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:400:28)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:158:27
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/auth/scram.js:110:14
+    at _callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:333:7)
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:9)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:29360) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongo Connection Error MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoError: Authentication failed.
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:19)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}]
+    at Pool.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:400:28)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:158:27
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/auth/scram.js:110:14
+    at _callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:333:7)
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:9)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:31931) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongo Connection Error MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoError: Authentication failed.
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:19)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}]
+    at Pool.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:400:28)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:158:27
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/auth/scram.js:110:14
+    at _callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:333:7)
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:9)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:33445) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongo Connection Error MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoError: Authentication failed.
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:19)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}]
+    at Pool.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:400:28)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:158:27
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/auth/scram.js:110:14
+    at _callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:333:7)
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:9)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+(node:33905) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongo Connection Error MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoError: Authentication failed.
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:19)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}]
+    at Pool.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:400:28)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:158:27
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/auth/scram.js:110:14
+    at _callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:333:7)
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:9)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:34947) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongo Connection Error MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoError: Authentication failed.
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:19)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed'
+}]
+    at Pool.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:400:28)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connect.js:158:27
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/auth/scram.js:110:14
+    at _callback (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:333:7)
+    at Connection.messageHandler (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:364:9)
+    at Connection.emit (events.js:400:28)
+    at processMessage (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:456:10)
+    at Socket.<anonymous> (/home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongodb/lib/core/connection/connection.js:625:15)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+ReferenceError: next is not defined
+    at /home/lanjrudi/apies/new-lanjrud-api/routes/articleRoutes.js:25:7
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5074:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+Emitted 'error' event on Function instance at:
+    at /home/lanjrudi/nodevenv/apies/new-lanjrud-api/14/lib/node_modules/mongoose/lib/model.js:5076:15
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:5957) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5957) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:9960) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9960) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:14445) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14445) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
