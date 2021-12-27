@@ -9,6 +9,7 @@ const articleSchema = Joi.object().keys({
   content: Joi.string().required().min(20)
 })
 
+// Article Controllers with new method
 exports.addArticle = async (req, res) => {
   try {
     const result = articleSchema.validate(req.body);

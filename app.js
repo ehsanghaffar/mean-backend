@@ -3,7 +3,6 @@ const app = express();
 require("dotenv").config();
 const mongoose = require("mongoose");
 const morgan = require("morgan");
-// const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 // Import Router
@@ -11,7 +10,7 @@ const authRoutes = require("./routes/user.routes");
 const articleRoute = require("./routes/articleRoutes");
 
 // Database Connection
-const db = "mongodb://lanjrudi_dbuser:iRXLZtkmWJq7Vmx@localhost:27017/lanjrudi_db";
+const db = "mongodb://localhost:27017/lanjrud";
 mongoose
   .connect(db, {
     useNewUrlParser: true,
@@ -26,7 +25,6 @@ mongoose
 
 // Middleware
 app.use(morgan("dev"));
-// app.use(cookieParser());
 app.use(cors());
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: false }));
