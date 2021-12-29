@@ -11,57 +11,21 @@ let Article = require("../models/Article");
 // Refactored
 articleRoute.route('/add-article').post(cleanBody, ArticleController.addArticle);
 
-// Get All Article
-articleRoute.route("/").get((req, res) => {
-  Article.find((error, data) => {
-    if (error) {
-      return next(error);
-    } else {
-      res.json(data);
-    }
-  });
-});
+
+// get all articles route
+// Refactored
+articleRoute.route('/').get(ArticleController.getArticles);
 
 // Get Article
-articleRoute.route("/:id").get((req, res) => {
-  Article.findById(req.params.id, (error, data) => {
-    if (error) {
-      return next(error);
-    } else {
-      res.json(data);
-    }
-  });
-});
+// Refactored
+articleRoute.route('/:id').get(ArticleController.getArticleById);
 
 // Update Article
-articleRoute.route("/update-article/:id").put((req, res, next) => {
-  Article.findByIdAndUpdate(
-    req.params.id,
-    {
-      $set: req.body,
-    },
-    (error, data) => {
-      if (error) {
-        return next(error);
-      } else {
-        res.json(data);
-        console.log("Article updated successfully!");
-      }
-    }
-  );
-});
+// Refactored
+articleRoute.route('/:id').put(cleanBody ,ArticleController.updateArticle);
 
 // Delete Article
-articleRoute.route("/delete-article/:id").delete((req, res, next) => {
-  Article.findByIdAndRemove(req.params.id, (error, data) => {
-    if (error) {
-      return next(error);
-    } else {
-      res.status(200).json({
-        msg: data,
-      });
-    }
-  });
-});
+// Refactored
+articleRoute.route('/:id').delete(cleanBody ,ArticleController.deleteArticle);
 
 module.exports = articleRoute;

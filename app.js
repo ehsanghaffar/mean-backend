@@ -4,24 +4,13 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const cors = require("cors");
+const path = require("path");
+const db = require("./config/db");
+const PORT = process.env.PORT || 8000;
 
 // Import Router
 const authRoutes = require("./routes/user.routes");
 const articleRoute = require("./routes/articleRoutes");
-
-// Database Connection
-const db = "mongodb://localhost:27017/lanjrud";
-mongoose
-  .connect(db, {
-    useNewUrlParser: true,
-    // useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log("Database connection Success.");
-  })
-  .catch((err) => {
-    console.error("Mongo Connection Error", err);
-  });
 
 // Middleware
 app.use(morgan("dev"));
@@ -38,7 +27,8 @@ app.use("/api/users", authRoutes);
 app.use("/api/articles", articleRoute);
 
 // Run Server
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => {
-  console.log("Server is running on ", PORT);
-});
+db().then(async () => {  
+  app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
+})

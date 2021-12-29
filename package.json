@@ -1,13 +1,13 @@
 {
   "name": "lanjrud-api",
-  "version": "0.0.1",
-  "description": "A API for website",
+  "version": "1.0.0",
+  "description": "Lanjrud API for the LANJrud website",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
     "serve": "node app"
   },
-  "author": "Ehsanghaffarii | info@ehsanghaffarii.ir",
+  "author": "Ehsanghaffarii | ghafari.5000@gmail.com",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
