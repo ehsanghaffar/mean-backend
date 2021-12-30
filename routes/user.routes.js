@@ -20,4 +20,12 @@ router.get("/referred", validateToken, AuthController.ReferredAccounts);
 
 router.get("/logout", validateToken, AuthController.Logout);
 
+// Admin Routers // TODO: Move to admin.routes.js
+
+router.get("/all", AuthController.GetAllUsers);
+
+router.get("/:id", AuthController.GetSingleUser);
+
+// router.delete("/:id", AuthController.DeleteUser);
+
 module.exports = router;

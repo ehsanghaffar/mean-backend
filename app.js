@@ -7,6 +7,7 @@ const cors = require("cors");
 const path = require("path");
 const db = require("./config/db");
 const PORT = process.env.PORT || 8000;
+const auth = require('./middleware/validateToken');
 
 // Import Router
 const authRoutes = require("./routes/user.routes");
@@ -21,8 +22,9 @@ app.use(express.json());
 
 // Routes
 app.get("/api", (req, res) => {
-  res.send("Hello");
+  res.status(200).send("Welcome to the API");
 });
+
 app.use("/api/users", authRoutes);
 app.use("/api/articles", articleRoute);
 

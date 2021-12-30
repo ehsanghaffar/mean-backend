@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-let Article = new Schema(
+const articleSchema = new Schema(
   {
     title: {
       type: String,
@@ -15,9 +15,21 @@ let Article = new Schema(
       type: String,
       required: true,
     },
+    author: {
+      type: Schema.Types.ObjectId,
+      ref: "User",
+    },
+  },
+  {
+    timestamps: {
+      createdAt: "createdAt",
+      updatedAt: "updatedAt",
+    },
   },
   {
     collection: "articles",
   }
 );
-module.exports = mongoose.model("Article", Article);
+
+const Article = mongoose.model("article", articleSchema);
+module.exports = Article;

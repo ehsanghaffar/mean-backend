@@ -364,3 +364,57 @@ exports.Logout = async (req, res) => {
     });
   }
 };
+
+// this functions is just for Admin
+// get All users
+exports.GetAllUsers = async (req, res) => {
+  try {
+    const users = await User.find({}, { email: 1, userId: 1, _id: 1, articles: 1 })
+    return res.send({
+      success: true,
+      users: users,
+    });
+  } catch (error) {
+    console.error("get-all-users-error", error);
+    return res.stat(500).json({
+      error: true,
+      message: error.message,
+    });
+  }
+}
+
+// get single user
+exports.GetSingleUser = async (req, res) => {
+  try {
+    const { id } = req.params.id
+    const user = await User.findOne(id, { email: 1, name: 1, _id: 1, articles: 1, active: 1, referralCode: 1 })
+    return res.status(200).json({
+      success: true,
+      user: user,
+    })
+  } catch (error) {
+    console.error("get-single-user-error", error);
+    return res.stat(500).json({
+      error: true,
+      message: error.message,
+    });
+  }
+}
+
+// delete user
+exports.DeleteUser = async (req, res) => {
+  try {
+    
+    const user = await User.findByIdAndRemove(req.params.id);
+    return res.status(200).json({
+      success: true,
+      data: user,
+    });
+  } catch (error) {
+    console.error("delete-user-error", error);
+    return res.stat(500).json({
+      error: true,
+      message: error.message,
+    });
+  }
+}

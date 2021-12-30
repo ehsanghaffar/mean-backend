@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 
 const userSchema = new Schema(
   {
-    userId: { type: String, unique: true, required: true },
+    userId: { type: String, unique: true },
+    _id: { type: String, unique: true },
     name: { type: String, default: null },
     email: { type: String, required: true, unique: true },
     active: { type: Boolean, default: false },
@@ -19,6 +20,7 @@ const userSchema = new Schema(
 
     referralCode: { type: String, unique: true },
     referrer: { type: String, default: null },
+    articles: [{ type: Schema.Types.ObjectId, ref: "Article" }],
   },
   {
     timestamps: {

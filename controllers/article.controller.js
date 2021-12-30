@@ -2,11 +2,13 @@ const Joi = require("joi");
 require("dotenv").config();
 
 const Article = require("../models/Article");
+const User = require("../models/User");
 
 const articleSchema = Joi.object().keys({
   title: Joi.string().required().min(4).max(50),
   description: Joi.string().required().min(10).max(255),
   content: Joi.string().required().min(20),
+  // author: Joi.string()
 });
 
 // add article
@@ -24,6 +26,10 @@ exports.addArticle = async (req, res) => {
 
     const newArticle = new Article(result.value);
     await newArticle.save();
+
+    const author = await User.findById(req.body.author);
+    author.articles.push(newArticle);
+    await author.save();
 
     return res.status(200).json({
       success: true,
@@ -45,15 +51,14 @@ exports.getArticles = async (req, res) => {
     return res.status(200).json({
       success: true,
       articlesCount: articles.length,
-      data: [
-        articles.map((article) => {
+      articles: articles.map((article) => {
           return {
             id: article._id,
             title: article.title,
             description: article.description,
+            author: article.author,
           };
-        }),
-      ],
+        })
     });
   } catch (err) {
     console.error("Get Articles Error", err);
@@ -67,7 +72,8 @@ exports.getArticles = async (req, res) => {
 // Get article by id
 exports.getArticleById = async (req, res) => {
   try {
-    const article = await Article.findById(req.params.id);
+    const article = await Article.findById(req.params.id)
+
     return res.status(200).json({
       success: true,
       data: article,
@@ -108,6 +114,12 @@ exports.updateArticle = async (req, res, next) => {
         }
       }
     );
+
+    const author = await User.findById(req.body.author);
+    author.articles.push(article);
+    await author.save();
+
+
   } catch (err) {
     console.error("Update Article By Id Error", err);
     return res.status(500).json({

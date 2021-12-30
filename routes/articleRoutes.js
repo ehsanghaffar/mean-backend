@@ -5,12 +5,11 @@ const articleRoute = express.Router();
 const cleanBody = require("../middleware/cleanbody");
 const ArticleController = require("../controllers/article.controller");
 let Article = require("../models/Article");
-
+const auth = require("../middleware/validateToken");
 
 // create new article route
 // Refactored
-articleRoute.route('/add-article').post(cleanBody, ArticleController.addArticle);
-
+articleRoute.route('/add-article').post(auth.validateToken ,cleanBody, ArticleController.addArticle);
 
 // get all articles route
 // Refactored
