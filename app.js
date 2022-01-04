@@ -4,10 +4,9 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const cors = require("cors");
-const path = require("path");
+// const path = require("path");
 const db = require("./config/db");
 const PORT = process.env.PORT || 8000;
-const auth = require('./middleware/validateToken');
 
 // Import Router
 const authRoutes = require("./routes/user.routes");
@@ -22,7 +21,7 @@ app.use(express.json());
 
 // Routes
 app.get("/api", (req, res) => {
-  res.status(200).send("Welcome to the API");
+  res.status(200).send("Api is running");
 });
 
 app.use("/api/users", authRoutes);

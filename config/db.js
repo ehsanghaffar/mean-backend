@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-// Replace this with your MONGOURI.
+// http://localhost:27017/node-angular
 const MONGOURI = process.env.DB_CONNECTION;
 
 const InitiateMongoServer = async () => {
