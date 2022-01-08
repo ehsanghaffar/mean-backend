@@ -104,7 +104,7 @@ exports.Signup = async (req, res) => {
     console.error("signup-error", error);
     return res.status(500).json({
       error: true,
-      message: "Cannot Register",
+      message: `couldn't signup, ${error.message}`,
     });
   }
 };
@@ -221,7 +221,7 @@ exports.Login = async (req, res) => {
     console.error("Login error", err);
     return res.status(500).json({
       error: true,
-      message: "Couldn't login. Please try again later.",
+      message: `Couldn't login, ${err.message}`,
     });
   }
 };
