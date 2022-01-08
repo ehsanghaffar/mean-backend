@@ -4,7 +4,7 @@ const { v4: uuid } = require("uuid");
 const { customAlphabet: generate } = require("nanoid");
 
 const { generateJwt } = require("../config/generateJwt");
-// const { sendEmail } = require("./helpers/mailer");
+// const { sendEmail } = require("./config/mailer");
 const User = require("../models/User");
 
 const CHARACTER_SET =
@@ -67,6 +67,7 @@ exports.Signup = async (req, res) => {
     //     message: "Couldn't send verification email.",
     //   });
     // }
+
     result.value.emailToken = code;
     result.value.emailTokenExpires = new Date(expiry);
 
@@ -402,19 +403,19 @@ exports.GetSingleUser = async (req, res) => {
 }
 
 // delete user
-exports.DeleteUser = async (req, res) => {
-  try {
+// exports.DeleteUser = async (req, res) => {
+//   try {
     
-    const user = await User.findByIdAndRemove(req.params.id);
-    return res.status(200).json({
-      success: true,
-      data: user,
-    });
-  } catch (error) {
-    console.error("delete-user-error", error);
-    return res.stat(500).json({
-      error: true,
-      message: error.message,
-    });
-  }
-}
+//     const user = await User.findByIdAndRemove(req.params.id);
+//     return res.status(200).json({
+//       success: true,
+//       data: user,
+//     });
+//   } catch (error) {
+//     console.error("delete-user-error", error);
+//     return res.stat(500).json({
+//       error: true,
+//       message: error.message,
+//     });
+//   }
+// }

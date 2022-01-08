@@ -11,6 +11,7 @@ const articleSchema = Joi.object().keys({
   // author: Joi.string()
 });
 
+// this is the function that will be called when we call the POST method on /articles
 // add article
 exports.addArticle = async (req, res) => {
   try {
