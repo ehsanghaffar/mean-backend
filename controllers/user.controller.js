@@ -403,19 +403,19 @@ exports.GetSingleUser = async (req, res) => {
 }
 
 // delete user
-// exports.DeleteUser = async (req, res) => {
-//   try {
+exports.DeleteUser = async (req, res) => {
+  try {
     
-//     const user = await User.findByIdAndRemove(req.params.id);
-//     return res.status(200).json({
-//       success: true,
-//       data: user,
-//     });
-//   } catch (error) {
-//     console.error("delete-user-error", error);
-//     return res.stat(500).json({
-//       error: true,
-//       message: error.message,
-//     });
-//   }
-// }
+    const user = await User.findByIdAndRemove(req.params.id);
+    return res.status(200).json({
+      success: true,
+      data: user,
+    });
+  } catch (error) {
+    console.error("delete-user-error", error);
+    return res.stat(500).json({
+      error: true,
+      message: error.message,
+    });
+  }
+}
