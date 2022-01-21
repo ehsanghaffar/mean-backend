@@ -8,7 +8,7 @@ const articleSchema = Joi.object().keys({
   title: Joi.string().required().min(4).max(50),
   description: Joi.string().required().min(10).max(255),
   content: Joi.string().required().min(20),
-  // author: Joi.string()
+  author: Joi.string()
 });
 
 // this is the function that will be called when we call the POST method on /articles
