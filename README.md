@@ -41,5 +41,3 @@ $ npm start
 #### Fork
 
 The Open Source community is awesome! If you're working in a fork with other tech stack, please add the reference of your project here.
-
-
